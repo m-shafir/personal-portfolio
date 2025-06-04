@@ -15,3 +15,6 @@
 .head-bg-color {
   background-color: var(--bg-blue) !important;
 }
+.small-text {
+  font-size: .8rem !important;
+}
