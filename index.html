@@ -33,12 +33,14 @@
 
     <!-- ! stylesheets  -->
     <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <!-- ! nav bar -->
+    <nav class="navbar navbar-expand-lg bg-dark" id="nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-light ps-4" href="#">Shafir</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,14 +55,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-light-emphasis" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle text-light-emphasis"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -68,12 +72,18 @@
               >
                 Dropdown
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item text-light" href="#"
+                    >Another action</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item text-light" href="#"
+                    >Something else here</a
+                  >
                 </li>
               </ul>
             </li>
@@ -83,11 +93,42 @@
           </ul>
 
           <div class="d-flex my-3 my-lg-0">
-            <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-github fa-2xl text-light"></i></a>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- main  -->
+
+    <main class="container-fluid bg-dark pt-5 pt-md-0">
+      <div class="row p-0 p-2 flex-column flex-md-row">
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="d-flex flex-column justify-content-around gap-3">
+            <span class="text-light fs-3">Hello, Im Shafir</span>
+            <h1 class="head-color display-1 m-0 fw-semibold">
+              Full stack <br />
+              Web Developer
+            </h1>
+            <span
+              class="text-light align-self-start fs-5 contact-me position-relative"
+              >Contact me</span
+            >
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="p-5 w-100 w-md-100">
+            <img
+              class="img-fluid rounded rounded-4 border border-3 border-secondary-subtle"
+              src="./media/photo.png"
+              alt="developer-photo "
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
     <!-- !  Bootstrap js -->
 
     <script

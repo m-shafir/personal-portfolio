@@ -1,0 +1,14 @@
+nav .dropdown-item:hover {
+  background-color: #2f3235 !important;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+  }
+
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    border-color: white !important;
+    outline: none;
+    box-shadow: none;
+    border-width: 2px;
+  }
