@@ -5,10 +5,13 @@
   /* font-family: "Roboto", sans-serif; */
   font-family: "Poppins", sans-serif;
 }
-:root{
-  --bg-blue : #A6BBCC;
+:root {
+  --bg-blue: #a6bbcc;
 }
 
-.head-color{
+.head-color {
   color: var(--bg-blue) !important;
+}
+.head-bg-color {
+  background-color: var(--bg-blue) !important;
 }

@@ -12,3 +12,15 @@
   bottom: -2px;
   left: 0;
 }
+
+#about-paragraph{
+    width: 75%;
+}
+
+@media (max-width:500px) {
+
+    #about-paragraph{
+    width: 100%;
+}
+
+}
