@@ -10,8 +10,11 @@
   background-size: contain;
   background-repeat: no-repeat;
 
-  animation: animate 5s 2 alternate;
+  /* animation: animate 5s 2 alternate; */
+  min-height: 80vh;
 }
+
+
 
 @keyframes animate {
   from {
@@ -53,5 +56,10 @@
 @media (max-width: 500px) {
   #about-paragraph {
     width: 100%;
+  }
+
+  #animated-img {
+    min-height: 40vh;
+    min-width: 100%;
   }
 }
