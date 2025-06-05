@@ -2,6 +2,39 @@
   letter-spacing: 1px;
 }
 
+#animated-img {
+  background: url(./media/photo.png);
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  animation: animate 5s 2 alternate;
+}
+
+@keyframes animate {
+  from {
+    clip-path: circle(100% at 50% 50%);
+  }
+  20% {
+    clip-path: circle(25% at 50% 40%);
+  }
+  40% {
+    clip-path: circle(25% at 20% 80%);
+  }
+  60% {
+    clip-path: circle(25% at 80% 20%);
+  }
+  80% {
+    clip-path: circle(25% at 10% 20%);
+  }
+
+  to {
+    clip-path: circle(100% at 50% 50%);
+  }
+}
+
 .contact-me::after {
   content: "";
   width: 100%;
