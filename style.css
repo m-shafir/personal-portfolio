@@ -10,7 +10,7 @@
   background-size: contain;
   background-repeat: no-repeat;
 
-  /* animation: animate 5s 2 alternate; */
+  animation: animate 5s 2 alternate;
   min-height: 80vh;
 }
 
