@@ -1,0 +1,33 @@
+form {
+  /* background-color: blueviolet; */
+  max-width: 350px;
+}
+
+.box {
+  box-shadow: 2px 2px 10px rgba(241, 241, 241, 0.267); /* Blue shadow */
+}
+
+input {
+  border: none;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  font: inherit;
+}
+
+textarea {
+  border: none;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  font: inherit;
+  resize: none; /* Prevents resizing */
+}
+
+
+
+@media (max-width: 580px) {
+  form {
+    max-width: 320px;
+  }
+}
